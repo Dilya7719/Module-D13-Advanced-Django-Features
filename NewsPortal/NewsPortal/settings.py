@@ -162,14 +162,14 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'   #печать
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = "dina.more.new@yandex.ru"
-EMAIL_HOST_PASSWORD = "xqegzbnvtrttwftl"
+EMAIL_HOST_USER = "example@yandex.ru"
+EMAIL_HOST_PASSWORD = "iliezvcovrxqizez"
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
-DEFAULT_FROM_EMAIL = "dina.more.new@yandex.ru"
+DEFAULT_FROM_EMAIL = "example@yandex.ru"
 
-SERVER_EMAIL = "dina.more.new@yandex.ru"
+SERVER_EMAIL = "example@yandex.ru"
 ADMINS = (
     ('Dilya', 'd.khamidullina2011@yandex.ru'),
     ('Dilya2', 'dilya.khamidullina2@gmail.com'),

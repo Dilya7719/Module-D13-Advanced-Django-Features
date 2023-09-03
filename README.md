@@ -39,12 +39,11 @@ In the process of implementing the project from version to version, the author i
 3. admin username/password - admin1977 / admin1977
 
 4. In the NewsPortal\NewsPortal\settings.py file, you need to enter your own values ​​for the variables below.
-
-EMAIL_HOST_USER = "example@yandex.ru"
-EMAIL_HOST_PASSWORD = "iliezvcovrxqizez"
-DEFAULT_FROM_EMAIL = "example@yandex.ru"
-SERVER_EMAIL = "example@yandex.ru"
-
+   EMAIL_HOST_USER = "example@yandex.ru"
+   EMAIL_HOST_PASSWORD = "iliezvcovrxqizez"
+   DEFAULT_FROM_EMAIL = "example@yandex.ru"
+   SERVER_EMAIL = "example@yandex.ru"
+   
 5. The output of sent letters to the console is configured.
 
 

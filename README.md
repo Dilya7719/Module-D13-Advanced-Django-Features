@@ -60,11 +60,11 @@ Accurate information is currently not available.
 
 ## Acknowledgements
 This project owes its existence to the "Fullstack Python Developer" course from SkillFactory.
-\nThank you to our amazing mentors who make this project grow and improve :)
-\nAnatoly Semenchuk
-\nOleg Afanasiev
-\nSemyon Berezovsky
-\nTimur Suvorov
+Thank you to our amazing mentors who make this project grow and improve :)
+- Anatoly Semenchuk
+- Oleg Afanasiev
+- Semyon Berezovsky
+- Timur Suvorov
 
 
 ## Contact

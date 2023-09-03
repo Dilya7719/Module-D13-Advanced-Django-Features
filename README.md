@@ -65,6 +65,7 @@ Thank you to our amazing mentors who make this project grow and improve :)
 - Oleg Afanasiev
 - Semyon Berezovsky
 - Timur Suvorov
+- Timofey Esin
 
 
 ## Contact

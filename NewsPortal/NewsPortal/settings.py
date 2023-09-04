@@ -199,18 +199,10 @@ LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
-        'formatter_console': {
+        'formatter_time_level_message': {
             'format': '{asctime} {levelname} {message}',
             'style': '{',
             'datefmt': '%Y-%m-%d %H:%M:%S'
-        },
-        'formatter_console_warning': {
-            'format': '{pathname}',
-            'style': '{',
-        },
-        'formatter_console_error': {
-            'format': '{exc_info}',
-            'style': '{',
         },
         'formatter_time_level_message_path': {
             'format': '{asctime} {levelname} {message} {pathname}',
@@ -241,19 +233,19 @@ LOGGING = {
             'level': 'DEBUG',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
-            'formatter': 'formatter_console',
+            'formatter': 'formatter_time_level_message',
         },
         'console_warning': {
             'level': 'WARNING',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
-            'formatter': 'formatter_console_warning',
+            'formatter': 'formatter_time_level_message_path',
         },
         'console_error': {
             'level': 'ERROR',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
-            'formatter': 'formatter_console_error',
+            'formatter': 'formatter_time_level_message_path_exc',
         },
         'file_general': {
             'level': 'INFO',
